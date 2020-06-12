@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Page Transition</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+
+    <body data-barba="wrapper">
+	
+        <main data-barba="container" data-barba-namespace="home">
+		<img src="./img/im1.jpg">
+           <h1 class="transition-element">
+                About me
+            </h1>
+                
+			<p class ="transition-element">Im a Software / Web designer developer who love to code.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+			  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+			  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			 </p>
+			 <a href="home.html" class ="transition-element">
+				   go to&nbsp<strong>home</strong>
+				 </a>
+		</main>
+		<div class ="transition-container">
+		 <span id ="from-top"></span>
+		 <span id ="from-bottom"></span>
+		 </div>
+		 
+    </body>
+	<script src="./libs/barba.min.js"></script>
+    <script src="./libs/gsap.min.js"></script>
+		
+		<script src="./js/aj.js"></script>
+</html>
